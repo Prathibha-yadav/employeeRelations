@@ -10,7 +10,7 @@ public class EmployeeRelationsApplication {
 
 	public static void main(String[] args) {
 
-		SpringApplication.run(EmployeeRelationsApplication.class, args);
+		SpringApplication.run(EmployeeRelationsApplication.class,args);
 	}
 
 }
