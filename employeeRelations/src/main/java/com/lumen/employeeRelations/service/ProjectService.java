@@ -44,7 +44,7 @@ public class ProjectService {
             throw new ApiException(500, "Failed to add projects to employee: " + ex.getMessage());
         }
     }
-
+// Java docs
     public ProjectDTO getProjectById(Long id) {
         try {
             Project project = projectRepository.findById(id)
